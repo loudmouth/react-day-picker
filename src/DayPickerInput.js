@@ -441,7 +441,7 @@ export default class DayPickerInput extends React.Component {
     if (e.keyCode === TAB) {
       this.hideDayPicker();
     } else {
-      this.showDayPicker();
+      // this.showDayPicker();
     }
     if (this.props.inputProps.onKeyDown) {
       e.persist();
@@ -453,7 +453,7 @@ export default class DayPickerInput extends React.Component {
     if (e.keyCode === ESC) {
       this.hideDayPicker();
     } else {
-      this.showDayPicker();
+      // this.showDayPicker();
     }
     if (this.props.inputProps.onKeyUp) {
       e.persist();
